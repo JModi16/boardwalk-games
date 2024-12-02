@@ -131,7 +131,10 @@ h2 {
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+#contact .table-dark * {
 
+    background-color: transparent;
+}
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -143,7 +146,92 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+/* General Styling */
+#events {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 20px; /* Internal spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Table Styling */
+  .table {
+    margin-bottom: 20px; /* Space below the table */
+  }
+  
+  .table thead th {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #333; /* Darker text for the header */
+  }
+  
+  .table tbody tr td {
+    font-size: 0.9rem; /* Slightly smaller font for table rows */
+  }
+  
+  /* Discount Note Styling */
+  .discount-note {
+    display: inline-block; /* Allows centering */
+    margin-top: 10px; /* Add spacing above the note */
+    padding: 8px 16px; /* Inner padding for better readability */
+    background-color: #007bff; /* Blue background */
+    border: 1px solid #007bff; /* Blue border */
+    color: white; /* White text */
+    font-size: 0.85rem; /* Small text */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center align text */
+    border-radius: 4px; /* Slightly rounded corners */
+  }
+  
+  
+  /* Book Now Button */
+.book-now {
+    display: block; /* Makes it easier to center */
+    margin: 15px auto; /* Centers button and adds spacing above */
+    padding: 8px 16px; /* Adjust padding */
+    border: 2px solid #007bff; /* Blue border */
+    background-color: white; /* White background */
+    color: #007bff; /* Blue text */
+    font-size: 0.85rem; /* Slightly smaller font */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .book-now:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+  }
+/* Button Styling */
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .display-6 {
+    font-size: 20px;
+  }
 
+/* Responsive Design */
+@media (min-width: 768px) {
+    .events-container {
+        max-width: 600px;
+    }
+
+    table th, table td {
+        padding: 10px;
+    }
+}
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -153,6 +241,12 @@ h2 {
         min-height: 191px;
     }
 }
+@media screen and (max-width: 768px) {
+ /* Make all service cards the same height for consistency */
+ #services .card-body 
+ min-height: 100px; 
+}
+    
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
