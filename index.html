@@ -26,7 +26,7 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo-sm-white.png" alt="Boardwalk Games logo" class="logo">
@@ -41,15 +41,21 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link"href="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                    <a href="#Events" class="nav-link">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="game-library.html">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a href="booking.html" class="btn custom-button-filled ms-lg-3">Book now</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    
                     </li>
                 </ul>
             </div>
@@ -67,6 +73,7 @@
                     café delights. Whether you're a casual gamer seeking a cosy nook to unwind, a board game enthusiast
                     ready for your next challenge, or a student gamer looking for a fun, affordable hangout, we've got
                     you covered.</p>
+                    <a href="booking.html" class="btn custom-button-outline mb-4">Book now</a>
             </div>
             <div class="col-12 col-xl-6">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -200,7 +207,7 @@
                 <p class="card-text">
                 Outside scheduled events, our shop remains open for regular play. Join us anytime to discover new games and meet fellow enthusiasts.
                 </p>
-                <div id="events">
+                <div id="Events">
                     <table class="table table-striped">
                       <thead>
                         <tr>
@@ -231,11 +238,13 @@
                         </tr>
                       </tbody>
                     </table>
-                    <div class="discount-note">*Get 20% off with valid student ID</div>
-                    <button class="book-now">Book Now</button>
+                    <p class="student-discount text-center">*Get 20% off with valid student ID</p>
+                    </div>
+                    <div class="col-12 text-center">
+                    <a href="booking.html" class="btn custom-button-outline my-4">Book now</a>
                   </div>
             </div>
-        </div>
+            
         </section>
     </main>
 
@@ -258,7 +267,7 @@
                     <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
                         <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
                     </p>
-                    <div class="social-links mt-4">
+                    <div class="social-links my-4">
                         <a href="https://www.instagram.com" target="_blank"
                             aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
                                 class="fa-brands fa-instagram"></i></a>
