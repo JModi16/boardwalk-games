@@ -172,6 +172,9 @@ h2 {
 
     background-color: transparent;
 }
+
+/*------------------------------------------------FOOTER-----------------------------------------------------*/
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -223,7 +226,7 @@ h2 {
   
   
   /* Book Now and Submit Button */
-.book-now, .submit {
+.book-now  {
     display: block; /* Makes it easier to center */
     margin: 15px auto; /* Centers button and adds spacing above */
     padding: 8px 16px; /* Adjust padding */
